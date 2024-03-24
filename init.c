@@ -21,9 +21,10 @@ main(void)
 
   for(;;){
     printf(1, "init: starting sh\n");
-    pid = fork();
     printf("ID: 202102111");
     printf("Name: taeyoung Kim");
+    pid = fork();
+   
     if(pid < 0){
       printf(1, "init: fork failed\n");
       exit();
